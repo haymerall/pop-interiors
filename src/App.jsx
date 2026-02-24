@@ -442,10 +442,10 @@ function Contact() {
   const sub = e => { e.preventDefault(); setSent(true); setTimeout(() => setSent(false), 4000); };
 
   const details = [
-    { lbl:"Email",    val:"hello@popinteriors.co.ke" },
-    { lbl:"Phone",    val:"+254 700 000 000" },
+    { lbl:"Email",    val:"popbylui@gmail.com" },
+    { lbl:"Phone",    val:"+254 705 806 720 / 254 798 326 733" },
     { lbl:"Location", val:"Westlands, Nairobi, Kenya" },
-    { lbl:"Hours",    val:"Mon–Sat: 8:00am – 7:00pm" },
+    { lbl:"Hours",    val:"Mon–Fri: 8:00am – 7:00pm   Sun : 9:00am – 1:00pm" },
   ];
 
   return (
@@ -526,16 +526,16 @@ function Footer() {
         <div>
           <div className="footer-hd">Contact</div>
           <ul className="footer-links">
-            <li><a href="#">hello@popinteriors.co.ke</a></li>
-            <li><a href="#">+254 700 000 000</a></li>
+            <li><a href="#">popbylui@gmail.com</a></li>
+            <li><a href="#">+254 705 806 720 / 254 798 326 733</a></li>
             <li><a href="#">Westlands, Nairobi</a></li>
-            <li><a href="#">Mon–Sat: 8am – 7pm</a></li>
+            <li><a href="#">Mon–Fri: 8am – 7pm   Sun : 9:00am – 1:00pm</a></li>
           </ul>
         </div>
       </div>
       <div className="green-divider" />
       <div className="footer-bottom" style={{ marginTop: 28 }}>
-        <p className="footer-copy">© 2025 <span>POP Interiors</span>. All rights reserved. Crafted with passion in Nairobi.</p>
+        <p className="footer-copy">© 2026 <span>POP Interiors</span>. All rights reserved. Crafted with passion in Nairobi.</p>
         <div className="social-links">
           {["f","in","ig","tw"].map(s => <a key={s} href="#" className="social-link">{s}</a>)}
         </div>
