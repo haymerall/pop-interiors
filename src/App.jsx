@@ -320,8 +320,8 @@ function Booking() {
 
   const infos = [
     { icon:"📍", lbl:"Visit Us",      val:"Westlands Business District, Nairobi, Kenya" },
-    { icon:"📞", lbl:"Call Us",       val:"+254 700 000 000 · Mon–Sat, 8am–7pm" },
-    { icon:"✉️", lbl:"Email Us",      val:"hello@popinteriors.co.ke" },
+    { icon:"📞", lbl:"Call Us",       val:"+254 705 806 720  /  254 798 326 733· Mon–Fri, 8am–7pm   Sun: 9:00am - 1:00pm" },
+    { icon:"✉️", lbl:"Email Us",      val:"popbylui@gmail.com" },
     { icon:"⏰", lbl:"Response Time", val:"We'll be in touch within 24 hours of your enquiry." },
   ];
 
